@@ -12,3 +12,5 @@
 3) Feedback
 4) Go to homepage
 
+To do list link:
+https://github.com/users/VadymTori/projects/3/views/1
