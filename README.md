@@ -14,3 +14,6 @@
 
 To do list link:
 https://github.com/users/VadymTori/projects/3/views/1
+
+Testing docs:
+https://docs.google.com/spreadsheets/d/1PeOX5FRCukgq3JPP2SHq-cKtMR0runMhinMyPSyAVQI/edit?usp=sharing
