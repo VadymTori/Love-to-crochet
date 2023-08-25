@@ -1,0 +1,15 @@
+{
+  "name": "love-to-crochet",
+  "version": "1.0.0",
+  "description": "e-comerce website -This should be a small e-comerce website for purchasing crochet clothes, registration\\authorization, adding comments(feedback) and contact to seller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
