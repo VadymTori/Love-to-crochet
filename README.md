@@ -4,7 +4,7 @@
 
 -The website should have 2 languages (hard mode)
 
-Drawing board
+-Drawing board
 https://excalidraw.com/
 
 PLEASE CHECK THE LINKS!!!
