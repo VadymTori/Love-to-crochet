@@ -1,88 +1,235 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Уроки вязание крючком и вещи ручной работы</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    
-    <body>
-        <div class="wrapper">
-                    <!-- header language start-->
-                <a href="index.html">
-                    <img src="images/rus.jpg" height="25px" width="35px" border="1px" alt=" " />
-                </a>
-                <a href="index(eng).html">
-                    <img src="images/eng.jpg" height="25px" width="35px" border="1px" alt=" " />
-                </a>
-            <!-- header language end -->
-            
-            <!-- header start -->
-            <div id="header" class="section">
-                <img alt="" class="img-circle" img src="images/kr.jpg"/>
-                <p><b>Love to crochet</b></p>
-                <p><small> вместе с Tori Nice </small></p>
-            </div>
-            <!-- header end -->
-            
-            <!-- About Me section start -->
-            <div class="section">
-                <h1><strong>Добро пожаловать на сайт по вязанию крючком</strong></h1>
-                <p>
-                    На моем сайте вы быстро обучитесь <strong>вязанию крючком</strong>. Тут вы сможете получить свои первые уроки по вязанию, заказать мастер-класс, повысить свои навыки по вязанию крючком, а также приобрести для себя или в подарок любое понравившейся вам изделие.
-                </p>
-                <p>
-                
-                </P>
-                <p class="quote">"Вещи ручной работы создаются не для потребителей, а для <strong>ценителей</strong>!!!"</p>
-            </div>
-            <!-- About Me section end -->
-            
-        
-            
-            <!-- My email section start -->
-            <div class="section">
-                <h1>Контактная информация</h1>
-                <p align="center">
-                <strong><u>torilovetocrochet@gmail.com</u></strong>
-                </P>
 
+<head>
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love to crochet</title>
+  <link rel="stylesheet" href="./src/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="/images/kr.jpg" type="image/png">
+</head>
+
+
+<body onload="openCity(event, 'London');">
+
+  <ul class="tab">
+    <li><a href="#" class="tablinks" onclick="openCity(event, 'London')">Main page</a></li>
+    <li><a href="#" class="tablinks" onclick="openCity(event, 'Paris')">Account</a></li>
+    <li><a href="#" class="tablinks" onclick="openCity(event, 'Kyiev')">Shopping page</a></li>
+    <li><a href="#" class="tablinks" onclick="openCity(event, 'Tokyo')">Shooping Cart</a></li>
+    <li><a href="#" class="tablinks" onclick="openCity(event, 'Berlin')">Contact me</a></li>
+  </ul>
+      <div id="London" class="tabcontent">
+  <div class="wrapper"><!--Main container  -->
+    <aside class="sidebar">
+        <img class="photo" src="/images/toppicture.jpg" alt="My photo">   
+                           
+        <div class="Contacts-container"><!-- Contacts container -->
+            <h3 class="contact-title">Contacts</h3>
+            <div>
+                <span class="contatcs-type"></span> <a class="contacts-link" href="tel:380631679754">     +38(063) 255-07-98</a>
             </div>
-            <!-- My email section end -->
-            
-            <!-- My store section start -->
-            <div class="section">
-                <h1>Ознакомится с изделиями на заказ можно</h1>
-                <p align="center">
-                <a href="store.html"><strong>тут</strong></a>
-                </P>
-                
+            <div>
+                <span class="contatcs-type"></span> <a class="contacts-link" href="tel:380631679754">     +1 ( 954 ) 544-74-78</a>
             </div>
-            <!-- store section end -->
-            
-            <!-- Media section start -->
-            <div class="section">
-                <h1>Уроки по вязанию крючком</h1>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Pe2KFD0UpHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div>
+                <span class="contatcs-type">E:</span> <a class="contacts-link" href=mailto:"ivanovatori1993@gmail.com">ivanovatori1993@gmail.com</a> 
             </div>
-            <!-- Media section end -->
-            
-            <!-- Contacts section start -->
-            <div class="section" id="contacts">
-                <h1>Ссылка на мои каналы</h1>
+            <br>
+            <a href="https://telegram.me/VadymIvanof">
+                <img width="40px" src="img/teleg.jpg" alt="telegram link">
+              </a>
+              <a href="viber://chat?number=%2B380632550798">
+                <img width="37px" src="img/viber.jpg" alt="viber link">
+              </a>
+              <a href="https://wa.me/380632550798">
+                <img width="37px" src="img/what.png" alt="whatsup link">
+              </a>
+            </a>
+            <a href="https://www.messenger.com/t/vadim.ivanof.5">
+              <img width="37px" src="img/msg.png" alt="messenger link">
+            </a>
+        </div>                        
+        <div class="skills-container"><!-- Tech skills container  -->
+            <h3 class="skills-title">Top crochet masterclass:</h3>
+            <ul>
+                <li class="skill-item"><span class="skills-white-item">1</span></li>
+                <li class="skill-item"><span class="skills-white-item">2</span></li>
+                <li class="skill-item"><span class="skills-white-item">3</span></li>
+                <li class="skill-item"><span class="skills-white-item">4</span></li>
+                <li class="skill-item"><span class="skills-white-item">5</span></li>
+            </ul>
+        </div>                       
+        <div class="skills-container"><!-- Soft skills container  -->
+            <h3 class="skills-title">Top masterclass video</h3>
+            <ul>
+                <li class="skill-item"><span class="skills-white-item">1</span></li>
+                <li class="skill-item"><span class="skills-white-item">2</span></li>
+                <li class="skill-item"><span class="skills-white-item">3</span></li>
+                <li class="skill-item"><span class="skills-white-item">4</span></li>
+                <li class="skill-item"><span class="skills-white-item">5</span></li>
+            </ul>
+        </div>
+        <!-- Language container  -->
+<!--         <div class="skills-container">
+            <h3 class="skills-title">Language</h3>
+            <ul>
+                <li class="skill-item"><span class="skills-white-item">English - B2</span></li>
+                <li class="skill-item"><span class="skills-white-item">Ukraine - Native</span></li>
+                <li class="skill-item"><span class="skills-white-item">Russian - Native</span></li>
+                <li class="skill-item"><span class="skills-white-item">German  - A1</span></li>
+            </ul>
+        </div> -->
+    </aside>
+    <dev class="info-container">
+        <div><!--about me container  -->
+            <h1 class="name">Tori Nice</h1>
+            <h1>Love to crochet store</h1>
+            <p class="discript">Here you can find crochet lessons and handicrafts store</p>
+        </div>                    
+                  
+        <div><!-- work expirience and education-->
+            <h3 class="Projects-title">At my website you will be able to find:</h3> 
+            <div><!-- company zero-->
+                <h4 class="work-name">Entry level<span class="orange-item"> masterclass lessons</span> </h4>
+                <ul class="margin-top-bot">
+                    <li class="work-duty">1</li>
+                    <li class="work-duty">2</li>
+                    <li class="work-duty">3</li>           
+                </ul>
+            </div>   
+            <div class="demo">
+                <input class="hide" id="hd-1" type="checkbox">
+                <label for="hd-1"><b>Click to view other level masterclass</b></label>
+                <div>    
+                    <div class="demo"> <!-- Company one-->
+                        <input class="hide" id="hd-5" type="checkbox">
+                        <label for="hd-5"><h4 class="work-name">Medium<span class="orange-item"> level</span></h4></label>
+                        <div>
+                                <li class="work-duty">1</li>
+                                <li class="work-duty">2</li>
+                                <li class="work-duty">3</li>              
+                        </div>
+
+                    <br/>
+                </div>                   
+            <div class="demo"> <!-- Company two-->
+                <input class="hide" id="hd-6" type="checkbox">
+                <label for="hd-6"><h4 class="work-name">Professional<span class="orange-item"> level</span></h4></label>
                 <div>
-                    <a href="https://www.youtube.com/channel/UCHQVIrnkmvbraWFBx7hBUMQ" target="_blank">
-                        <img alt="YouTube" img src="y.png" />
-                    </a>
-                    <a href="https://www.instagram.com/tori.nice/" target="_blank">
-                        <img alt="Instagram" img src="ins.png" />
-                    </a>
+                    <li class="work-duty">1</li>
+                    <li class="work-duty">2</li>
+                    <li class="work-duty">3</li>             
                 </div>
+
+            <br/>
+  
+        </div>  
+    </div>
+    </div>                                                                  
+            <div><!-- Education container -->
+                <h3 class="Projects-title">Free crochet lesson</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Pe2KFD0UpHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>   
+
+            <div><!-- Resume -->
+                <h3 class="Projects-title">Social media</h3>
+            </div>                       
+        <!-- Contacts section start -->
+        <div class="section" id="contacts">
+            <h1>Join me</h1>
+            <div>
+                <a href="https://www.youtube.com/channel/UCHQVIrnkmvbraWFBx7hBUMQ" target="_blank">
+                    <img alt="YouTube" img src="img/y.png" />
+                </a>
+				 <a href="https://www.instagram.com/tori.nice/" target="_blank">
+                    <img alt="Instagram" img src="img/ins.png" width="200" height="180"/>
+                </a>
             </div>
-            <!-- Contacts section end -->
-            
-            <div class="copyright">
-                &copy; 2020 Love to crochet website. Все права защищены.
-            </div>
-     </div>
-    </body>
-</html>
+        </div>
+        <!-- Contacts section end -->
+        </div>
+        <br>
+
+</div>
+</div>
+<div id="Paris" class="tabcontent">
+  <h3>Log in/Sign Up</h3>
+ 
+</div>
+<div id="Kyiev" class="tabcontent">
+<h2>Some items shoul be here...</h2>
+    <br>
+    <button>Add item</button>
+    <br>
+    <button>Remove item</button>
+</a>
+</div>
+<div id="Tokyo" class="tabcontent">
+    <div class="project-container"><!-- Project and codding container -->
+        <h3 class="Projects-title">List of items: </h3>
+        <ol>
+            <li class="project-item"> 
+                <a class="project-links" href="https://docs.google.com/spreadsheets/d/1QYMYiWRQvo09_31RqbfzxgcCKIZrhc835xGpmvL5Ps0/edit?usp=sharing">1</a>
+                <span class="project-dots">. . .</span>
+                <span>[</span><span class="proj-item">  description</span><span>]</span>
+            </li>
+            <li class="project-item"> 
+                <a class="project-links" href="https://docs.google.com/spreadsheets/d/1i2bNbhiqYpuSn6I5G2eLDy6_dmyUA5-YPlhnFnqz_1o/edit?usp=sharing">2</a>
+                <span class="project-dots">. . .</span>
+                <span>[</span><span class="proj-item">  description </span><span>]</span>
+            </li>
+            <li class="project-item"> 
+                <a class="project-links" href="https://lovetocrochet.netlify.app//">3</a>
+                <span class="project-dots">. . .</span>
+                <span>[</span><span class="proj-item"> description </span><span>]</span>
+            </li>
+            <li class="project-item">
+                <a class="project-links" href="https://vadym-ivanov-rezume.netlify.app//">4</a>
+                <span class="project-dots">. . .</span>
+                <span>[</span><span class="proj-item"> description </span><span>]</span>
+            </li>
+            <li class="project-item">
+                <a class="project-links" href="https://shaurma-shawerma.netlify.app//">5</a>
+                <span class="project-dots">. . .</span>
+                <span>[</span><span class="proj-item">description </span><span>]</span>
+            </li>
+            <li class="project-item">
+                <a class="project-links" href="https://docs.google.com/spreadsheets/d/1VWGQfELc244bKAkDWw47fxdpuO5jmGXql971kOFpyeg/edit?usp=sharing">6</a>
+                <span class="project-dots">. . .</span>
+                <span>[</span><span class="proj-item">description</span><span>]</span>
+            </li>
+        </ol>
+    </div> 
+  <h3>Cart buy</h3>
+  <p>Button</p>
+    <button>Check in</button>
+    <br>
+</a>
+</div>
+<div id="Berlin" class="tabcontent">
+    <form id="form" action="#" method="POST" enctype="multipart/form-data">
+        <div class="row">
+          <label class="required" for="name">Your name:</label><br />
+          <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+          <span id="name_validation" class="error_message"></span>
+        </div>
+        <div class="row">
+          <label class="required" for="email">Your email:</label><br />
+          <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+          <span id="email_validation" class="error_message"></span>
+        </div>
+        <div class="row">
+          <label class="required" for="message">Your message:</label><br />
+          <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+          <span id="message_validation" class="error_message"></span>
+        </div>
+          
+          <input id="submit" type="submit" value="Send email" />
+      </form>
+</div>
+<script src="src/react.js"></script>
+</body>
