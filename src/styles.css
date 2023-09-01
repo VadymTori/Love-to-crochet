@@ -70,6 +70,13 @@ to { opacity: 1 }
     from { opacity: 0; }
 to { opacity: 1 }   
 }
+.section {
+    background-color: rgba(236, 236, 236, 0.836);
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
 .hide + label:before {
     background-color: #1e90ff;
     color: #fff;
@@ -112,7 +119,7 @@ body{
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 .sidebar{
-    background: #1e2939;
+    background: #400042;
     width: auto;
     padding-top: 40px;
     padding-bottom: 40px;
