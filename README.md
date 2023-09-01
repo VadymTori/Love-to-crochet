@@ -3,6 +3,8 @@
 -This should be a small e-comerce website for purchasing crochet clothes, registration\authorization, adding comments(feedback) and contact to seller
 
 -The website should have 2 languages (hard mode)
+Drawing board
+https://excalidraw.com/
 
 PLEASE CHECK THE LINKS!!!
 
